@@ -1,0 +1,118 @@
+/* login.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Set a light background color for the body */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Use the full height of the viewport */
+}
+
+.login-container {
+    width: 400px;
+    margin: 30px auto; /* Adjust the top margin as needed */
+    padding: 40px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.input-container {
+    text-align: left;
+    margin-bottom: 15px; /* Add margin for spacing between input elements */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    width: 18px; /* Adjust the width as needed */
+}
+
+.checkbox-label {
+    margin-left: 8px; /* Adjust the left margin as needed */
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+input:focus {
+    border-color: #ffcc00;
+}
+
+button {
+    width: 100%; /* Make the button full width */
+    background-color: coral;
+    color: white;
+    border: none;
+    padding: 15px; /* Increase the padding for a larger button */
+    cursor: pointer;
+    font-size: 18px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the text bold */
+}
+
+/* login.css */
+
+/* ... (이전의 코드) ... */
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.custom-checkbox {
+    position: relative;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+}
+
+.custom-checkbox input {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+}
+
+.custom-checkbox span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    border: 2px solid coral;
+    background-color: white;
+}
+
+.custom-checkbox input:checked + span {
+    background-color: coral;
+    border: 2px solid white;
+}
+
+.checkbox-label {
+    margin-left: 8px;
+}
+
+/* ... (이후의 코드) ... */

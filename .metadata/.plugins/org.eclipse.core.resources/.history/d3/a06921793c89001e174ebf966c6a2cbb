@@ -1,0 +1,6 @@
+package com.choi.shop.member.controller;
+
+@Controller
+public class MemberController {
+	
+}

@@ -1,0 +1,10 @@
+
+11월 22, 2023 22:34:47.721 NEW SESSION
+11월 22, 2023 22:34:47.721 [22752:31848:1122/223447.719:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+11월 22, 2023 22:34:47.721 ERROR: Couldn't read tbsCertificate as SEQUENCE
+11월 22, 2023 22:34:47.722 ERROR: Failed parsing Certificate
+11월 22, 2023 22:34:47.722 
+11월 22, 2023 22:34:48.73 [22752:31848:1122/223448.072:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+11월 22, 2023 22:34:48.73 ERROR: Couldn't read tbsCertificate as SEQUENCE
+11월 22, 2023 22:34:48.73 ERROR: Failed parsing Certificate
+11월 22, 2023 22:34:48.74 
