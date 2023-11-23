@@ -1,0 +1,9 @@
+127.0.0.1 - - [23/Nov/2023:23:33:59 +0900] "GET / HTTP/1.1" 200 3538
+0:0:0:0:0:0:0:1 - - [23/Nov/2023:23:34:00 +0900] "GET / HTTP/1.1" 200 3538
+0:0:0:0:0:0:0:1 - - [23/Nov/2023:23:34:00 +0900] "GET /resources/css/shopping.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [23/Nov/2023:23:34:00 +0900] "GET /resources/images/image1.jpg HTTP/1.1" 200 345922
+0:0:0:0:0:0:0:1 - - [23/Nov/2023:23:34:00 +0900] "GET /resources/images/image2.jpg HTTP/1.1" 200 647511
+0:0:0:0:0:0:0:1 - - [23/Nov/2023:23:34:00 +0900] "GET /resources/images/image3.jpg HTTP/1.1" 200 326269
+0:0:0:0:0:0:0:1 - - [23/Nov/2023:23:34:00 +0900] "GET /resources/images/image4.jpg HTTP/1.1" 200 428724
+0:0:0:0:0:0:0:1 - - [23/Nov/2023:23:34:05 +0900] "GET /member/login HTTP/1.1" 200 1125
+0:0:0:0:0:0:0:1 - - [23/Nov/2023:23:34:05 +0900] "GET /resources/css/login.css HTTP/1.1" 200 2418

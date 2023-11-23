@@ -14,7 +14,7 @@
             <h2>Login</h2>
             <div class="input-container">
                 <label for="username">ID</label>
-                <input type="text" id="username" name="username" required value="하영러브">
+                <input type="text" id="username" name="username" required value="jwchoi">
             </div>
              
             <div class="input-container">
@@ -29,5 +29,4 @@
             <button type="submit">Login</button>
         </form>
     </div>
-</body>
 </html>

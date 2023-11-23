@@ -76,8 +76,6 @@ button {
 
 /* login.css */
 
-/* ... (이전의 코드) ... */
-
 .checkbox-container {
     display: flex;
     align-items: center;
@@ -114,5 +112,11 @@ button {
 .checkbox-label {
     margin-left: 8px;
 }
-
-/* ... (이후의 코드) ... */
+.login-container {
+    width: 400px;
+    margin: 30px auto; /* Adjust the top margin as needed */
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    background-color: #fff;
+}
