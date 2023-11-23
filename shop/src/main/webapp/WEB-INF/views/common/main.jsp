@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Shopping Mall</title>
     <link rel="stylesheet" href="${contextPath}/resources/css/shopping.css">
+    
 </head>
 <body>
     <header>
