@@ -50,16 +50,16 @@
             <div class="white-divider"></div>
             <div class="post-wrapper slick-slider" id="slider1"> <!-- slider1 ID 추가 -->
                 <div class="post">
-                    <img src="${contextPath}/resources/images/image1.jpg">
+                    <img src="/shop/src/main/webapp/resources/images/image1.jpg">
                 </div>
                 <div class="post">
-                    <img src="${contextPath}/resources/images/image2.jpg">
+                    <img src="/shop/src/main/webapp/resources/images/image2.jpg">
                 </div>
                 <div class="post">
-                    <img src="${contextPath}/resources/images/image3.jpg">
+                    <img src="/shop/src/main/webapp/resources/images/image3.jpg">
                 </div>
                 <div class="post">
-                    <img src="${contextPath}/resources/images/image4.jpg">
+                    <img src="/shop/src/main/webapp/resources/images/image4.jpg">
                 </div>
             </div>
         </div>

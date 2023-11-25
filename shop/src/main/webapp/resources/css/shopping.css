@@ -17,13 +17,13 @@ header {
 
 .header-divider {
     height: 50px;
-    background-color: #ddd; /* 얇은 띠의 색상 설정 */
+    background-color: #ddd;
     width: 100%;
 }
 
 h1 {
     margin: 0;
-    margin-right:50px;
+    margin-right: 50px;
 }
 
 nav {
@@ -59,37 +59,8 @@ nav a:hover::after {
     right: 0;
 }
 
-.category-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-}
-
-.category-nav ul li {
-    margin-right: 15px;
-}
-
-.category-nav a {
-    text-decoration: none;
-    color: #fff;
-    position: relative;
-}
-
-.category-nav a:hover::after {
-    content: '';
-    display: block;
-    height: 2px;
-    background-color: #fff;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
 .section.main {
-    padding: 20px; 
+    padding: 20px;
 }
 
 .product-grid {
@@ -153,12 +124,8 @@ footer {
 .header-content {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* 오른쪽 정렬을 위한 속성 추가 */
+    justify-content: space-between;
     width: 100%;
-}
-
-.header-middle {
-    margin-left: 0; /* 나머지 공간을 오른쪽으로 이동 */
 }
 
 .product-item:hover {
@@ -173,11 +140,6 @@ footer {
     color: #555;
 }
 
-.carousel img {
-    width: 100%;
-    height: 700px;
-}
-
 .slick-prev,
 .slick-next {
     font-size: 24px;
@@ -187,6 +149,7 @@ footer {
     transform: translateY(-50%);
     z-index: 1;
     cursor: pointer;
+    background: transparent; /* 배경을 투명으로 설정 */
 }
 
 .slick-prev {
@@ -197,21 +160,76 @@ footer {
     right: 10px;
 }
 
-.owl-carousel button.owl-prev,
-.owl-carousel button.owl-next {
-    font-size: 200px; /* 화살표 크기 조절 */
-    color: rgb(180, 9, 9); /* 화살표 색상 설정 */
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 1;
-    cursor: pointer;
+/* Slick Carousel 버튼에 이미지 추가 */
+.slick-prev:before,
+.slick-next:before {
+    content: ""; /* 내용을 비워줍니다 */
+    background-image: url('/path/to/your/previous-button-image.png'); /* 이전 버튼 이미지 경로로 수정 */
+    background-size: contain; /* 이미지 크기를 맞추기 위해 contain 사용 */
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 24px; /* 이미지의 너비에 따라 조절 */
+    height: 24px; /* 이미지의 높이에 따라 조절 */
 }
 
-.owl-carousel button.owl-prev {
-    left: 10px; /* 왼쪽 여백 조절 */
+.slick-next:before {
+    background-image: url('/path/to/your/next-button-image.png'); /* 다음 버튼 이미지 경로로 수정 */
 }
 
-.owl-carousel button.owl-next {
-    right: 10px; /* 오른쪽 여백 조절 */
+/* Slick Carousel 이미지에 대한 추가 스타일 */
+.slick-slider {
+    width: 100%;
+}
+
+.slick-slide img {
+    width: 100%;
+    height: auto;
+}
+
+ 
+.white-divider {
+    height: 3px;
+    background-color: transparent;
+    width: 100%;
+}
+/* Slick Carousel 버튼에 화살표 아이콘 추가 */
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 32px;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    color: white; /* 흰색으로 설정 */
+    content: none !important;
+}
+
+.slick-prev:before {
+    content: '\f053' !important; /* 이전 화살표 아이콘 코드 */
+}
+
+.slick-next:before {
+    content: '\f054' !important; /* 다음 화살표 아이콘 코드 */
+}
+ 
+.slick-prev, .slick-next {
+    font-size: 0; /* 폰트 사이즈 0으로 설정하여 텍스트 감추기 */
+    border: none; /* 테두리 없애기 */
+    background: transparent; /* 배경을 투명으로 설정 */
+}
+    
+.post img {
+    max-width: 100%; /* 이미지 최대 너비를 부모 요소의 100%로 설정 */
+    height: auto; /* 높이는 자동으로 조절 */
+}
+
+.post-slider-outer {
+    max-width: 80%; /* 원하는 최대 너비로 조절 */
+    margin: 0 auto; /* 가운데 정렬을 위해 margin 사용 */
+}
+
+#slider2 .post img {
+    max-width: 100%;
+    height: auto;
 }
