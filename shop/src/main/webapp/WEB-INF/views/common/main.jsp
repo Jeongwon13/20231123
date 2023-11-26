@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"  %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%> 
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,37 +15,14 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 </head>
 
 <body>
+    <jsp:include page="/WEB-INF/views/common/header.jsp" />
     <div class="header-divider"></div>
-    <header>
-        <div class="header-content">
-            <div class="header-left">
-                <nav class="category-nav">
-                    <h1><a href="/">쇼핑몰</a></h1>
-                    <ul>
-                        <li><a href="#">Category 1</a></li>
-                        <li><a href="#">Category 2</a></li>
-                        <li><a href="#">Category 3</a></li>
-                        <!-- 다른 카테고리 아이템들을 필요에 따라 추가하세요 -->
-                    </ul>
-                </nav>
-            </div>
-            <div class="header-right">
-                <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Shop</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><button id="loginBtn"><a href="/member/login">Login</a></button></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
+     
     <div class="white-divider"></div>
     <section class="main">
         <div class="post-slider">
@@ -108,9 +87,8 @@
         </div>
     </section>
     
-    <footer>
-        <p>&copy; 2023 My Shopping Mall. All rights reserved.</p>
-    </footer>
+    
+    <jsp:include page="/WEB-INF/views/common/footer.jsp" />
 
     <div id="loginModal" class="modal">
         <div class="modal-content">

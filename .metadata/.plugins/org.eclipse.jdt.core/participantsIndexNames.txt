@@ -9,5 +9,7 @@ C:\Users\jeongwon\Documents\workspace_shopping\.metadata\.plugins\org.eclipse.js
 \shop\src\main\java
 C:\Users\jeongwon\Documents\workspace_shopping\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1003842379.index
 \shop\src\main\java
+C:\Users\jeongwon\Documents\workspace_shopping\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2432110607.index
+\shop\src\main\java
 C:\Users\jeongwon\Documents\workspace_shopping\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1565343797.index
 \shop\src\main\java
