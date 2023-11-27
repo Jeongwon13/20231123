@@ -50,12 +50,47 @@
                 <h3>Item Name</h3>
                 <p>$34.99</p>
             </div>
-
-            <!-- 여러 개의 아이템을 추가하세요 -->
+ 
         </div>
+        <div class="divider">
+            <a href="#">신상품순</a> 
+            <a href="#">판매순</a> 
+            <a href="#">높은가격순</a> 
+            <a href="#">낮은가격순</a> 
 
+        </div>
+        <div class="item-list">
+            <div class="item">
+                <img src="https://via.placeholder.com/150" alt="Item Image">
+                <div class="item-details">
+                    <h3>Item Name</h3>
+                    <p>$34.99</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="https://via.placeholder.com/150" alt="Item Image">
+                <div class="item-details">
+                    <h3>Item Name</h3>
+                    <p>$34.99</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="https://via.placeholder.com/150" alt="Item Image">
+                <div class="item-details">
+                    <h3>Item Name</h3>
+                    <p>$34.99</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="https://via.placeholder.com/150" alt="Item Image">
+                <div class="item-details">
+                    <h3>Item Name</h3>
+                    <p>$34.99</p>
+                </div>
+            </div>
+         
     </div>
-    
+    </div> 
     <jsp:include page="/WEB-INF/views/common/footer.jsp" />
 </body>
 

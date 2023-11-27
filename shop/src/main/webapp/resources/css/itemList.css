@@ -5,13 +5,13 @@ body {
     background-color: #f4f4f4;
 }
 
-.container { 
-    margin: 0 auto; 
+.container {
+    margin: 0 auto;
     padding: 20px;
     box-sizing: border-box;
 }
 
-.container > h2 { 
+.container > h2 {
     margin-left: 15px;
 }
 
@@ -37,4 +37,23 @@ body {
 
 .item-details {
     padding: 10px;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid red;
+    height: 100px;
+    margin: 0px 70px 0px 70px;
+}
+
+.divider a {
+    margin-right: 10px; /* Adjust the spacing between links if needed */
+    text-decoration: none;
+    color: #333; /* Adjust the color if needed */
+}
+
+.divider a:not(:last-child):after {
+    content: "|";
+    margin-left: 10px;
 }
