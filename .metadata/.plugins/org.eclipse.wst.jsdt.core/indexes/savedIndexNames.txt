@@ -4,5 +4,4 @@ INDEX VERSION 1.4+C:\Users\jeongwon\Documents\workspace_shopping\.metadata\.plug
 132794387.index
 2885156438.index
 4129552934.index
-3069134441.index
 3459396227.index

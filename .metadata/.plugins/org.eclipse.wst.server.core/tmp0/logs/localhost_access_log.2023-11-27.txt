@@ -45,3 +45,15 @@
 0:0:0:0:0:0:0:1 - - [27/Nov/2023:22:31:17 +0900] "GET /itemList HTTP/1.1" 200 4553
 0:0:0:0:0:0:0:1 - - [27/Nov/2023:22:31:17 +0900] "GET /resources/css/ HTTP/1.1" 404 721
 0:0:0:0:0:0:0:1 - - [27/Nov/2023:22:31:28 +0900] "GET /itemList HTTP/1.1" 200 4565
+127.0.0.1 - - [27/Nov/2023:22:33:22 +0900] "GET / HTTP/1.1" 200 5053
+0:0:0:0:0:0:0:1 - - [27/Nov/2023:22:33:23 +0900] "GET / HTTP/1.1" 200 5053
+0:0:0:0:0:0:0:1 - - [27/Nov/2023:22:33:23 +0900] "GET /resources/js/main.js HTTP/1.1" 200 324
+0:0:0:0:0:0:0:1 - - [27/Nov/2023:22:33:23 +0900] "GET /resources/images/image1.jpg HTTP/1.1" 200 345922
+0:0:0:0:0:0:0:1 - - [27/Nov/2023:22:33:23 +0900] "GET /resources/images/image4.jpg HTTP/1.1" 200 428724
+0:0:0:0:0:0:0:1 - - [27/Nov/2023:22:33:23 +0900] "GET /resources/css/shopping.css HTTP/1.1" 200 4641
+0:0:0:0:0:0:0:1 - - [27/Nov/2023:22:33:23 +0900] "GET /resources/images/image3.jpg HTTP/1.1" 200 326269
+0:0:0:0:0:0:0:1 - - [27/Nov/2023:22:33:23 +0900] "GET /resources/images/image2.jpg HTTP/1.1" 200 647511
+0:0:0:0:0:0:0:1 - - [27/Nov/2023:22:33:23 +0900] "GET /path/to/your/next-button-image.png HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [27/Nov/2023:22:33:23 +0900] "GET /path/to/your/previous-button-image.png HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [27/Nov/2023:22:33:24 +0900] "GET /itemList HTTP/1.1" 200 4565
+0:0:0:0:0:0:0:1 - - [27/Nov/2023:22:33:24 +0900] "GET /resources/css/itemList.css HTTP/1.1" 200 1064
